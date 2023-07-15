@@ -1,0 +1,86 @@
+.header {
+    background-color: #A1B7C8;
+    min-height: 60px;
+}
+
+.header__container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 13px;
+padding-bottom: 13px;
+}
+
+.header__logo {
+    width: 124px;
+}
+
+.header__contacts {
+    position: absolute;
+    background-color: #A1B7C8;
+    top: 61px;
+    right: 0;
+    left: 0;
+    padding: 30px 15px;
+    color: #fff;
+}
+
+.header__contact-burger {
+    display: block;
+    width: 27px;
+    height: 14px;
+    background-image: url('../img/bars-solid.svg');
+}
+
+.contacts__item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.contacts__head {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.contact__link {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.contacts__social-list {
+    display: flex;    
+}
+
+.contacts__social-link {
+    display: flex;
+    width: 26px;
+    height: 26px; 
+    margin-right: 18px;    
+}
+
+
+/* .contacts__social-link:not(:last-child) {
+    margin-right: 18px;    
+} */
+
+.contacts__social-link-whatsup {
+    background-image: url('../img/whats-app-outlined.svg');
+    background-repeat: no-repeat;
+}
+
+.contacts__social-link-github {
+    background-image: url('../img/github.svg');
+    background-repeat: no-repeat;
+}
+
+.contacts__social-link-telegram {
+    background-image: url('../img/telegram-plane.svg');
+    background-repeat: no-repeat;
+}
+
+.contacts__social-link-linkedin {
+    background-image: url('../img/linkedin-in.svg');
+    background-repeat: no-repeat;
+}
