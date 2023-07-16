@@ -26,7 +26,7 @@ $('.header__contacts').slideToggle(400);
 })
 
 $('.present__order-btn').click(() => {
-$('.page__overlay_modal').fadeIn(400);
+$('.page__overlay_modal').fadeIn(400).css('display', 'flex');
 })
 
 $('.modal__close').click(() => {
