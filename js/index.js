@@ -32,3 +32,12 @@ $('.page__overlay_modal').fadeIn(400).css('display', 'flex');
 $('.modal__close').click(() => {
     $('.page__overlay_modal').fadeOut(400);
 })
+
+let menu = document.querySelector('.menu');
+let lines = document.querySelectorAll('.menu__line');
+
+menu.addEventListener('click', () => {
+  lines[0].classList.toggle('rotate-line-1');
+  lines[2].classList.toggle('rotate-line-3');
+  lines[1].classList.toggle('translate-line-2');
+});

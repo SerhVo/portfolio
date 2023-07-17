@@ -29,9 +29,18 @@
 
 .header__contact-burger {
     display: block;
-    width: 27px;
-    height: 14px;
-    background-image: url('../img/bars-solid.svg');
+    width: 22px;
+    height: 24px;
+    background-color: #A1B7C8;
+}
+
+.contact__burger_svg {
+    fill: #fff;
+    transition: fill 0.3s ease-in-out;
+}
+
+.header__contact-burger:hover .contact__burger_svg {
+fill: #3B557D;
 }
 
 .contacts__item {
@@ -39,7 +48,7 @@
 }
 
 .contacts__item:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 
 .contacts__head {
@@ -53,6 +62,11 @@
 .contact__link {
     font-size: 16px;
     line-height: 22px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact__link:hover {
+    color:  #3B557D;
 }
 
 .contacts__social-list {
@@ -73,20 +87,13 @@
     margin-right: 18px;    
 } */
 
-.contacts__social-link-whatsup {
-    background-image: url('../img/whats-app-outlined.svg');
+.contacts__social_svg {
+    fill: #fff;
+    transition: fill 0.3s ease-in-out;
 }
 
-.contacts__social-link-github {
-    background-image: url('../img/github.svg');
-}
-
-.contacts__social-link-telegram {
-    background-image: url('../img/telegram-plane.svg');
-}
-
-.contacts__social-link-linkedin {
-    background-image: url('../img/linkedin-in.svg');
+.contacts__social-item:hover .contacts__social_svg {
+fill: #3B557D;
 }
 
 @media (min-width: 768px) {
